@@ -37,9 +37,7 @@ void str_words_in_rev(char *input, int len){
 			i = j + 1;
 		}
 		if (*(input + j) == '\0')
-		{
 			break;
-		}
 		j++;
 	}
 }
